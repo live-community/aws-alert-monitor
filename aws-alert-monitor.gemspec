@@ -20,5 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec', '~> 2.11.0'
 
-  gem.add_runtime_dependency 'aws-sdk', '~> 1.7.1'
+  gem.add_runtime_dependency 'aws-sdk-v1', '~> 1.64.0'
 end

@@ -21,6 +21,7 @@ module AwsAlertMonitor
         }
 
         params[:proxy_uri] = data['proxy_uri'] if data['proxy_uri']
+        params[:ses]= { :region => data['ses_region'] } if data['ses_region']
 
         ::AWS.config params
 
